@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Certificação de Mátricula</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            font-family:  "Roboto", sans-serif;
+        }
+
+        .main {
+            display: flex;
+            height: calc(100vh - 40px);
+            justify-content: center;
+            align-items: center;
+            background-image: url(./www/background.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 20px;
+        }
+
+        .content {
+            background-color: white;
+            width: 80%;
+            height: 60vh;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            flex-direction: column;
+
+            border: solid;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            border-color: rgba(128, 128, 128, 0.44);
+            border-width: 1px;
+
+            border-radius: 10px;
+        }
+
+        .main .content .title {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        .main .content .signature {
+            font-weight: 400;
+            font-size: 11px;
+            position: absolute;
+            bottom: 1px;
+            right: 20px;
+            margin: 0px;
+        }
+
+        .main .content .description {
+            width: 80%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin: 0px;
+            font-size: 14px;
+        }
+
+        .content .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .content  .footer p {
+            margin: 0px;
+        }
+        .content .footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding-top: 40px;
+            width: 100%;
+        }
+
+        .content  .footer p {
+            font-size: 12px;
+        }
+
+        .content  .footer p:nth-child(2) {
+            font-style: italic;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .header-logo p {
+            font-weight: 500;
+
+        }
+
+        .logo {
+            height: 30px;
+            width: 30px;
+            border-radius: 20%;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="content">
+            <div class="header-logo">
+                <div class="logo"></div>
+                <p>Minha Escola</p>
+            </div>
+            <div class="header">
+                <p class="title">CERTIFICADO DE APROVAÇÃO DE MATRÍCULA</p>
+                <p class="description">Certificamos que [Nome Completo do Aluno] foi aprovado(a) para matrícula na turma [Identificação da Turma], do curso de [Nome do Curso], referente ao período letivo de [Ano/Semestre].</p>
+                <p class="description">A matrícula foi concedida conforme os critérios da instituição e está vinculada à turma supracitada.</p>
+            </div>
+            <div class="footer">
+                <p>[Cidade - Estado], [Data de emissão].</p>
+                <p>[Nome do Responsável]</p>
+                <p>[Cargo do Responsável]</p>
+                <p>[Nome da Instituição]</p>
+            </div>
+            <p class="signature">www.minhaescola.online/validate-signature/uier8743579875ijijasd</p>
+        </div>
+    </main>
+</body>
+</html>
